@@ -1,0 +1,59 @@
+.nav {
+    background: rgb(0,48,137);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0 6px 12px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.account {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+.account img {
+    display: block;
+}
+
+.account li::after {
+    content: '|';
+    font-size: 10px;
+    color: #fff;
+    margin: .5rem;
+}
+
+.account li:last-child::after {
+    content: '';
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    background: rgb(102, 153, 204);
+    color: #fff;
+    padding: 5px 12px 7px;
+}
+.links a {
+    font-size: 13px;
+    color: #fff;
+    font-weight: normal;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links li::after {
+    content: '|';
+    font-size: 10px;
+    color: #000;
+    margin: .5rem;
+}
+
+.links li:last-child::after {
+    content: '';
+    margin: 0;
+}

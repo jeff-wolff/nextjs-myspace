@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    .profileWrap {
+        display: flex;
+    }
+    .profileLeft {
+        flex: 1;
+    }
+    .profileRight {
+        flex: 2;
+    }
+}
+
+.profileName {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.friendList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.friendList > div {
+    flex: 1 1 50%;
+    margin-bottom: 1.5rem;
+}
+@media (min-width: 768px) {
+    .friendList > div {
+        flex: 1 1 25%;
+    }
+}

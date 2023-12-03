@@ -1,0 +1,9 @@
+.profileHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.25rem;
+}
+.profileTitle {
+    margin-bottom: 0;
+}

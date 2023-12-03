@@ -1,0 +1,28 @@
+.profile {
+    display: flex;
+}
+
+.callout {
+    max-width: 145px;
+    align-self: flex-start;
+}
+.callout p {
+    font-size: 12px;
+}
+.profileForm {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+.profileForm > div {
+    display: flex;
+    margin-bottom: 10px;
+}
+.profileForm > div > label {
+    width: 100%;
+    max-width: 150px;
+}
+
+.profileForm input,
+.profileForm textarea {
+    width: 100%;
+}
